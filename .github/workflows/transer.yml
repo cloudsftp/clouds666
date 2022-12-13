@@ -4,6 +4,9 @@ name: Request Transfer
 on:
   schedule:
     - cron:  '20 16 * * *'
+  push:
+    branches:
+      - main
 
 jobs:
   build:
