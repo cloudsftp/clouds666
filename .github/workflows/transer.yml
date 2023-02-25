@@ -3,7 +3,7 @@ name: Request Transfer
 
 on:
   schedule:
-    - cron:  '20 16 * * *'
+    - cron:  '20 16 2/2 * *'
   push:
     branches:
       - main
